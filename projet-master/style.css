@@ -1,0 +1,145 @@
+*{  
+    padding: 0px;
+    margin: 0px;
+    font-family: 'Roboto', sans-serif;
+}
+/* header part*/
+nav{
+    display: flex;
+    padding-bottom: 20px;
+    padding-top: 20px;
+    align-content: center;
+    background-color:hsl(244, 15%, 58%);
+    align-items: center;
+    justify-content: space-between;
+    
+}
+#navmenu{
+    display: flex;
+    padding-right: 10%;
+    
+}
+
+#listnavbar{
+    list-style: none;
+    margin: 3%;
+    
+}
+a{
+    text-decoration: none;
+    color:white;
+    font-weight:bolder;
+}
+#logo{
+    padding-left: 3%;
+}
+  
+    
+    /* main*/
+
+section{
+    color: darkgray;
+    text-align: center;
+  
+}
+article{
+    text-align: center;
+}
+
+ul{
+    list-style: none;
+
+}
+#concat{
+ text-align: center;
+ margin-top: 5%;
+}
+
+
+.card {
+    border: 1px solid rgb(31, 30, 29);
+    width: 50%;
+    margin: 5% auto 5% auto;
+    background-color: azure;
+    display: flex;
+    flex-direction: row;
+  }
+  .product {
+    margin: auto 5% auto 5%;
+  }
+  .icon {
+    display: flex;
+    justify-content: space-around;
+  }
+  .price {
+    text-align: center;
+    margin-top: 2%;
+    margin-bottom: 2%;
+    font-size: 150%;
+  }
+
+
+  /*EL JDidi*/
+
+
+  .sec_cart{
+    margin-top: 40px;
+    margin-bottom: 40px;
+    padding-left: 80px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    background-size: 200px;
+}
+.cart{
+    background-color: black;
+    margin-top: 40px;
+    width: 700px;
+    display: flex;
+    flex-direction: row;
+
+}
+.cart img{
+    width: 180px;
+}
+.AB p{
+    margin-right: 8px;
+}
+
+.cont_cart{
+    color: white;
+    display: flex;
+    flex-direction: column;
+    margin-left: 10px;
+}
+.ulF a{
+    color: white;
+}
+
+.ulF{
+    list-style: none;
+    color: white;
+    width: 300px;
+    display:flex ;
+    justify-content: space-around;
+    font-size:large;
+
+}
+.secF{
+    padding-left: 20px;
+    padding-right: 20px;
+    display: flex;
+    justify-content:  space-between  ;
+    align-items: center;
+}
+.sec_footer{
+    padding-top: 20px;
+    background-color: gray;
+    width: 100% ;
+}
+.sec_footer img{
+    margin-right: 20px;
+}
+
+
+  /*XXXXXXXX EL JDID XXXXXX*/
